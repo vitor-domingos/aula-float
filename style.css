@@ -1,0 +1,38 @@
+h1 {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+main .float .right {
+  float: right;
+  background-color: #00ffff;
+  width: 100px;
+  height: 100px;
+}
+
+main .float .left {
+  float: left;
+  background-color: #8a2be2;
+  width: 100px;
+  height: 100px;
+}
+
+.float:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+p {
+  font-size: 18px;
+  margin-right: 20px;
+  text-align: justify;
+}
